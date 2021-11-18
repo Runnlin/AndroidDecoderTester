@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester.ui.slideshow
+package io.github.runnlin.decoder_tester.ui.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import io.github.runnlin.AndroidDecoderTester.R
-import io.github.runnlin.AndroidDecoderTester.databinding.FragmentSlideshowBinding
+import io.github.runnlin.decoder_tester.databinding.FragmentSlideshowBinding
 
 class SlideshowFragment : Fragment() {
 
@@ -24,7 +23,7 @@ class SlideshowFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         slideshowViewModel =
             ViewModelProvider(this).get(SlideshowViewModel::class.java)
 

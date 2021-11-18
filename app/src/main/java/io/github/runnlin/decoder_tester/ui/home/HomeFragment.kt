@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester.ui.home
+package io.github.runnlin.decoder_tester.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import io.github.runnlin.AndroidDecoderTester.R
-import io.github.runnlin.AndroidDecoderTester.databinding.FragmentHomeBinding
+import io.github.runnlin.decoder_tester.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
@@ -24,7 +23,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
 

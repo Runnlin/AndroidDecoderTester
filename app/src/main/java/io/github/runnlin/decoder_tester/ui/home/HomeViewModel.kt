@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester.ui.home
+package io.github.runnlin.decoder_tester.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

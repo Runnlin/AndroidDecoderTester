@@ -12,4 +12,5 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="test">test</string>
     <string name="bind_service">绑定服务</string>
+    <string name="start_check_media_decoder">start check media decoder</string>
 </resources>

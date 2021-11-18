@@ -17,28 +17,28 @@
         />
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center">-->
 
-        <Button
-            android:id="@+id/btn_bind_service"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bind_service"
-            android:padding="20dp"
-            tools:ignore="MissingConstraints" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_bind_service"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/bind_service"-->
+<!--            android:padding="20dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
 
-        <Button
-            android:id="@+id/btn_test_method"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/test"
-            android:padding="20dp"
-            tools:ignore="MissingConstraints" />
-    </LinearLayout>
+<!--        <Button-->
+<!--            android:id="@+id/btn_test_method"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/test"-->
+<!--            android:padding="20dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
+<!--    </LinearLayout>-->
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

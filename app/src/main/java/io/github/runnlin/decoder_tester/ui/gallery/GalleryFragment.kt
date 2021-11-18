@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester.ui.gallery
+package io.github.runnlin.decoder_tester.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import io.github.runnlin.AndroidDecoderTester.R
-import io.github.runnlin.AndroidDecoderTester.databinding.FragmentGalleryBinding
+import io.github.runnlin.decoder_tester.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
 
@@ -24,7 +23,7 @@ class GalleryFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         galleryViewModel =
             ViewModelProvider(this).get(GalleryViewModel::class.java)
 

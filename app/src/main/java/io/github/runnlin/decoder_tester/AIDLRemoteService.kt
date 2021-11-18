@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester
+package io.github.runnlin.decoder_tester
 
 import android.app.Service
 import android.content.Intent
@@ -10,8 +10,12 @@ class AIDLRemoteService:Service() {
 
     private val aidl: CustomAIDL.Stub = object : CustomAIDL.Stub() {
         @Throws(RemoteException::class)
-        override fun getStr(): String {
-            return " 我是远程服务返回的 HELLO "
+        override fun getDecoders(type: Int): String {
+            TODO("Not yet implemented")
+        }
+        @Throws(RemoteException::class)
+        override fun checkDecoders(decoders: String?): String {
+            TODO("Not yet implemented")
         }
     }
 

@@ -1,4 +1,4 @@
-package io.github.runnlin.AndroidDecoderTester
+package io.github.runnlin.decoder_tester
 
 import org.junit.Test
 
